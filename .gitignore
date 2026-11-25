@@ -79,3 +79,4 @@ htmlcov/
 .DS_Store
 Thumbs.db
 Desktop.ini
+/src/generated/prisma

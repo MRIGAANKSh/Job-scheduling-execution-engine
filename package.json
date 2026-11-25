@@ -19,9 +19,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "pino-pretty": "^13.2.0"
+    "pino-pretty": "^13.2.0",
+    "prisma": "^6.19.3"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.3",
     "cors": "^2.8.6",
     "dotenv": "^18.0.10",
     "express": "^5.3.0",
