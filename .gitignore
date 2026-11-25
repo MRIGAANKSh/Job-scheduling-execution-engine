@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+bower_components/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# Build outputs & caches
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.turbo/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# C / C++
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.dSYM/
+cmake-build-*/
+
+# Logs & databases
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.sqlite
+*.sqlite3
+*.db
+
+# Testing & coverage
+coverage/
+.nyc_output/
+htmlcov/
+
+# Editors & IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
